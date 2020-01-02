@@ -1,3 +1,287 @@
-<div class="">
-  Das ist das Forum
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+* {
+    box-sizing: border-box; /* include margin, border, and padding in size */
+    font-family: "Lucida Sans", sans-serif;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    flex-wrap: wrap;
+}
+
+.header {
+    font-size: 36pt;
+    font-weight: bold;
+    background-color: #f1f1f1;
+    color: #00519e;
+    padding: 15px;
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: center; /* Safari 6.1+ */
+    display: flex;
+    justify-content: center;
+	text-align: center;
+}
+
+.logo {
+	background: white;
+	width: 100%;
+    height: 100px;
+	object-position: center;
+    justify-content: center;
+    align-items: center;
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: center; /* Safari 6.1+ */
+    display: flex;
+    justify-content: center;
+    border: 3px solid #4f99df;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.logo__image{
+	background: white;
+	width: 100%;
+    height: 100px;
+	object-fit: cover;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16pt;
+}
+
+.menu li {
+    padding: 8px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.menu li:hover {
+    background-color: #4f99df;
+}
+
+.content {
+    padding-left: 20px;
+    padding-right: 20px;
+	text-align: center;
+}
+
+.aside {
+    background-color: #e2f0e2;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14pt;
+}
+
+.aside > div {
+    font-size: 24pt;
+    font-weight: bold;
+    height: 100px;
+    padding: 8px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color :#008000;
+    color: #f1f1f1;
+}
+
+.footer {
+    background-color: #f1f1f1;
+    color: #00519e;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.btn1{
+width: 200px;
+height: 30px;
+}
+
+/* Phones: */
+.phone-12-cols {width: 100%;}
+
+/* Desktop: */
+@media only screen and (min-width: 750px) {
+    .desktop-1-cols {width: 8.33%;}
+    .desktop-2-cols {width: 16.66%;}
+    .desktop-3-cols {width: 25%;}
+    .desktop-4-cols {width: 33.33%;}
+    .desktop-5-cols {width: 41.66%;}
+    .desktop-6-cols {width: 50%;}
+    .desktop-7-cols {width: 58.33%;}
+    .desktop-8-cols {width: 66.66%;}
+    .desktop-9-cols {width: 75%;}
+    .desktop-10-cols {width: 83.33%;}
+    .desktop-11-cols {width: 91.66%;}
+    .desktop-12-cols {width: 100%;}
+}
+
+table{
+	margin: 0 auto;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td {
+    border: 1px solid #f1f1f1;
+    text-align: center;
+    padding: 16px;
+	
+}
+th {
+    border: 1px solid #f1f1f1;
+    text-align: left;
+    padding: 16px;
+
+}
+
+tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+li{
+	text-align: center;
+}
+
+/*Exercise a*/
+
+
+</style>
+
+<script>
+
+</script>
+
+</head>
+
+<div class="flex-container">
+
+    <div class="menu desktop-1-cols phone-1-cols">
+     <h1>Aufgabe</h1>
+        <ul>
+        <li>1</li>
+        <li>2</li>
+		<li>3</li>
+		<li>4</li>
+        <li>5</li>
+        <li>6</li>
+		<li>7</li>
+		<li>8</li>
+		<li>9</li>
+		<li>10</li>
+		</ul>
+    </div>
+
+  <div class="content desktop-10-cols phone-12-cols">
+        <h1>Forum</h1>
+        <table id="Q1">
+			<tr>
+				<th> <button>▲</button> 24 votes ★Tutor </th>
+				<th> Student Max: Wo müssen wir die Gruppenaufgabe hochladen?</th>
+				
+			</tr> 
+			<tr>
+				<td><button>▲</button> 7 votes ★Tutor </td>
+				<td> Student Moritz: In die Wiki!  </td>
+				
+			</tr>
+			<tr>
+				<td><button>▲</button> 0 votes ✩........ </td>
+				<td>Student Bob: Frag den Tutor!</td>
+				
+			</tr>
+			<tr>
+				<td> TUTOR </td>
+				<td>Tutor Anton: Auf die Seite wiki.hci.uni-hannover.de unter deiner Gruppennummer </td>
+			
+			</tr>
+		<tr>
+				<td></td>
+				<td>
+				<form>
+				<input type="..." list="">
+				<button>Antwort Eingeben</button>
+				</form></td>
+			
+			</tr>
+       </table>
+	   <h1></h1>
+	        <table id="Q1">
+			<tr>
+				<th> <button>▲</button> 11 votes ★Tutor </th>
+				<th> Studentin Esther: Wie löst man Aufgabe 9a?</th>
+				
+			</tr> 
+			<tr>
+				<td><button>▲</button> 3 votes ✩........ </td>
+				<td> Studentin Lara: Weiß ich auch nicht  </td>
+				
+			</tr>
+			<tr>
+				<td><button>▲</button> 0 votes ✩........ </td>
+				<td>Student Gerhard: Steht doch im Skript!</td>
+				
+			</tr>
+			<tr>
+				<td> TUTOR </td>
+				<td>Tutor Tom: Der Ansatz ist eine if-Abfrage if (zahl==5){... </td>
+			
+			</tr>
+		<tr>
+				<td></td>
+				<td>
+				<form>
+				<input type="..." list="">
+				<button>Antwort Eingeben</button>
+				</form></td>
+			
+			</tr>
+       </table>
+	   <h1></h1>
+              <table id="Q1">
+			<tr>
+				<th> <button>▲</button> 11 votes ✩........ </th>
+				<th> Studentin Henrike: Könnt ihr die Datei Hinweise.pdf auch nicht öffnen??</th>
+				
+			</tr> 
+
+		<tr>
+				<td></td>
+				<td>
+				<form>
+				<input type="..." list="">
+				<button>Antwort Eingeben</button>
+				</form></td>
+			
+			</tr>
+       </table>
+	   <h1></h1>
+    </div> 
+	
+<!-- <div class="aside desktop-10-cols phone-12-cols">
+        <div> Block 1
+	
+		</div>
+        <div>Block 2</div>
+        <div>Block 3</div>
+    </div> --> 
+
 </div>
+
+<div class="footer">
+    <p>Online Tutor 2019</p>
+</div>
+
+</body>
+</html>
